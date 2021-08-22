@@ -7,7 +7,7 @@ const api = axios.create({
   // Dentro da criação do Axios, temos uma propriedade chamada.
   // Ela recebe o endpoint de sua aplicação, ou seja, a URL da API que será acessada.
   // Neste exemplo está o serviço do GitHub
-  baseURL: "https://akabab.github.io/superhero-api/api/",
+  baseURL: "https://api.github.com",
 });
 
 export default api;
